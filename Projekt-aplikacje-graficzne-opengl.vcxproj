@@ -144,8 +144,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Projekt-aplikacje-graficzne-opengl.cpp" />
+    <ClCompile Include="Shaders.cpp" />
     <ClCompile Include="src\glad.c" />
-    <ClCompile Include="src\Źródło.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stb_image.h" />
+    <ClInclude Include="Shaders.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
